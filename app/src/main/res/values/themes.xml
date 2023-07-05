@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EShopECO" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="mainHeading">
+        <item name="android:fontFamily">@font/poppins_extra_bold</item>
+        <item name="android:textColor">@color/primary_blue_dark</item>
+        <item name="android:textSize">80px</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Heading">
+    <item name="android:fontFamily">@font/poppins_extra_bold</item>
+    <item name="android:textColor">@color/primary_blue_dark</item>
+    <item name="android:textSize">60px</item>
+    <item name="android:textAllCaps">true</item>
+</style>
+    <style name="mainBody">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/primary_blue_light</item>
+        <item name="android:textSize">48px</item>
+    </style>
+    <style name="body">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">28px</item>
+    </style>
+    <style name="Button_Primary">
+        <item name="android:backgroundTint">@color/primary_blue</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">32px</item>
+        <item name="cornerRadius">15px</item>
+    </style>
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/blue_bg</item>
+        <item name="hintTextColor">@color/primary_blue</item>
+        <item name="startIconTint">@color/primary_blue_dark</item>
+        <item name="endIconTint">@color/primary_blue_dark</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+    <style name="TextInputET" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:background">@drawable/text_bg</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="topNavTheme" parent="android:Theme.Material.Wallpaper.NoTitleBar">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:state_checked">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="iconSize">24dp</item>
+        <item name="itemIconTint">@color/primary_blue</item>
+        <item name="itemTextColor">@color/primary_blue</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="AdminButtons" parent="Theme.MaterialComponents">
+
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/primary_blue_dark</item>
+        <item name="android:textSize">48px</item>
+        <item name="android:strokeColor">@color/black</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+    <style name="categoryInputET" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:background">@drawable/text_bg</item>
+        <item name="android:radius">25dp</item>
+        <item name="hintTextColor">@color/blue_bg</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="progressBar">
+        <item name= "itemFillColor">@color/primary_blue_dark</item>
+    </style>
+
+
+</resources>

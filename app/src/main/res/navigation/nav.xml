@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="eshopeco.com.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_adminFragment2"
+            app:destination="@id/adminFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="eshopeco.com.fragment.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="eshopeco.com.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="eshopeco.com.fragment.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/adminFragment2"
+        android:name="eshopeco.com.fragment.AdminFragment"
+        android:label="fragment_admin"
+        tools:layout="@layout/fragment_admin" >
+        <action
+            android:id="@+id/action_adminFragment2_to_adminActivity"
+            app:destination="@id/adminActivity" />
+        <action
+            android:id="@+id/action_adminFragment2_to_addCategoryActivity"
+            app:destination="@id/addCategoryActivity" />
+
+    </fragment>
+    <activity
+        android:id="@+id/addCategoryActivity"
+        android:name="eshopeco.com.AddCategoryActivity"
+        android:label="activity_add_category"
+        tools:layout="@layout/activity_add_category" />
+    <activity
+        android:id="@+id/adminActivity"
+        android:name="eshopeco.com.AdminActivity"
+        android:label="activity_admin"
+        tools:layout="@layout/activity_admin" />
+    <activity
+        android:id="@+id/addProductActivity"
+        android:name="eshopeco.com.AddProductActivity"
+        android:label="activity_add_product"
+        tools:layout="@layout/activity_add_product" />
+
+
+
+</navigation>

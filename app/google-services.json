@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "496363790832",
+    "project_id": "eshopeco-8ebec",
+    "storage_bucket": "eshopeco-8ebec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496363790832:android:1ef0b6cf1069236d233d35",
+        "android_client_info": {
+          "package_name": "eshopeco.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496363790832-m0jopfb3rn1adhackfsg0k0ub0i66gte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA03O6NSOVCXk9GzS1hUnL7i_0bqNXCLyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496363790832-m0jopfb3rn1adhackfsg0k0ub0i66gte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

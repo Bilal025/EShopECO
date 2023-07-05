@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EShopECO</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="i_dont_have_account">I don\'t have an account <font color="#006CE6"> Register</font></string>
+    <string name="login">Login</string>
+    <string name="create_account">Create account</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reg_enter_password">Enter Password</string>
+    <string name="register_account">Register account</string>
+    <string name="i_have_account">I already have an account <font color="#006CE6"> Login</font></string>
+    <string name="hi_hello">Hi, Hello</string>
+    <string name="welcome_to_eshopeco">Welcome to EshopECO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
